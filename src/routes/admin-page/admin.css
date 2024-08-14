@@ -1,0 +1,23 @@
+#divImageStat {
+    position:absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 80px;
+    height: 80px;
+}
+
+#divImageUsers {
+    position:absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 80px;
+    height: 80px;
+}
+
+#divImageChat {
+    position:absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 80px;
+    height: 80px;
+}

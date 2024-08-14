@@ -1,0 +1,13 @@
+.registerPage {
+    min-height: 100vh;
+    height: 100%;
+}
+
+.leftLabel {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align:left;
+    float:left;
+    font-weight: bold;
+    color: #2D4059;
+}

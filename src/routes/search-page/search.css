@@ -1,0 +1,29 @@
+.menu {
+    width: 300px;
+}
+
+.content {
+    width: 100%;
+}
+
+.menu-button {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 5px;
+
+    cursor: pointer;
+
+    -webkit-transition: .3s;
+    transition: .3s;
+
+    background-color: rgb(234, 84, 85);
+    color: white;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.menu-button:hover{
+    background-color: #2D4059;
+}
+

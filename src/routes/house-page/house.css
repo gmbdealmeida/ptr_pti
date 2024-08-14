@@ -1,0 +1,66 @@
+.bookBtn{
+    width: 25%;
+    margin-bottom: 2%;
+    border: 2px solid rgb(234, 84, 85);
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-moz-box-shadow: 2px 2px 3px #666;
+	-webkit-box-shadow: 2px 2px 3px #666;
+	box-shadow: 2px 2px 3px #666;
+	font-size: 20px;
+	padding: 4px 7px;
+	outline: 0;
+	-webkit-appearance: none;
+    background-color: rgb(234, 84, 85);
+    color: white;
+
+}
+
+.bookBtn:hover{
+    border: 2px solid #2D4059;
+    background-color: #2D4059;
+    
+}
+
+#moreBtn, #moreBtn:focus, #moreBtn:active {
+	color:rgb(234, 84, 85);
+	box-shadow: none;
+	outline: none!important;
+}
+
+.sep {
+	white-space: pre-wrap;
+}
+
+.popup-content{
+	margin:auto;
+	background:#fff;
+	width:75%;
+	padding:5px;
+	border:1px solid #d7d7d7
+}
+
+[role=tooltip].popup-content{
+	width:600px;
+	box-shadow:0 0 3px rgba(0,0,0,.16);
+	border-radius:5px
+}
+
+.popup-overlay{
+	background:rgba(0,0,0,.5)
+}
+
+[data-popup=tooltip].popup-overlay{
+	background:rgba(0,0,0,.5)
+}
+
+.popup-arrow{
+	-webkit-filter:drop-shadow(0 -3px 3px rgba(0,0,0,.16));
+	filter:drop-shadow(0 -3px 3px rgba(0,0,0,.16));
+	color:#fff;
+	stroke-width:2px;
+	stroke:#d7d7d7;
+	stroke-dasharray:30px;
+	stroke-dashoffset:-54px
+}
