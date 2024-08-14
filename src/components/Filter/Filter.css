@@ -1,0 +1,102 @@
+.inputBarF{
+    width: 80%;
+    margin-left: 10%;
+    border: 1px solid #ccc;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 5px;
+	-moz-box-shadow: 2px 2px 3px #666;
+	-webkit-box-shadow: 2px 2px 3px #666;
+	box-shadow: 2px 2px 3px #666;
+	font-size: 20px;
+	padding: 4px 7px;
+	outline: 0;
+	-webkit-appearance: none;
+}
+
+.inputBarF:focus{
+    border-color: #339933;
+}
+
+.label{
+    margin-left: 10%;
+    font-weight: bold;
+    color: #2D4059;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.filterForm{
+    border: 3px solid rgb(234, 84, 85);
+    box-shadow: 5px 5px 6px #666;
+}
+
+.filterBtn{
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 47%;
+    margin-bottom: 2%;
+    border: 2px solid rgb(234, 84, 85);
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-moz-box-shadow: 2px 2px 3px #666;
+	-webkit-box-shadow: 2px 2px 3px #666;
+	box-shadow: 2px 2px 3px #666;
+	font-size: 20px;
+	padding: 4px 7px;
+	outline: 0;
+	-webkit-appearance: none;
+    background-color: rgb(234, 84, 85);
+    color: white;
+}
+
+.filterBtn:hover{
+    border: 2px solid #2D4059;
+    background-color: #2D4059;
+    
+}
+
+.select-styleF{
+    width: 80%;
+    margin-left: 10%;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-moz-box-shadow: 2px 2px 3px #666;
+	-webkit-box-shadow: 2px 2px 3px #666;
+	box-shadow: 2px 2px 3px #666;
+	font-size: 20px;
+	outline: 0;
+	-webkit-appearance: none;
+}
+
+.SingleDatePicker{
+	width: 100%;
+    margin-left: 10%;
+}
+.DateInput {
+	width: 100%;
+}
+.DateInput_input {
+	font-size: 17px!important;
+	font-weight: lighter;
+	width: 100%;
+}
+.SingleDatePickerInput {
+	width: 80%;
+}
+
+.SingleDatePickerInput__withBorder {
+	border: 1px solid #ccc!important;
+	-moz-border-radius: 10px!important;
+	-webkit-border-radius: 10px!important;
+	border-radius: 5px!important;
+	-moz-box-shadow: 2px 2px 3px #666!important;
+	-webkit-box-shadow: 2px 2px 3px #666!important;
+	box-shadow: 2px 2px 3px #666!important;
+	font-size: 20px!important;
+	padding: 4px 7px!important;
+	outline: 0!important;
+	-webkit-appearance: none!important;
+}

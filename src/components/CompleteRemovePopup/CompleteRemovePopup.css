@@ -1,0 +1,108 @@
+.modal {
+    font-size: 12px;
+    background: white;
+    width: 380px;
+    height: 180px;
+    border-radius: 10px;
+}
+
+.centerItems {
+    text-align: center;
+    position: absolute;
+    z-index: 15;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -150px;
+}
+
+
+.popup-content {
+    background: none;
+    width: 0%;
+    padding: 0px;
+    border: none;
+}
+.modal > .header {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+}
+.modal > .content {
+    width: 100%;
+    padding: 10px 5px;
+}
+.modal > .actions {
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+}
+.modal > .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
+}
+
+.yesBtn{
+    display: inline-block;
+    width: 100px;
+    margin-bottom: 16px;
+    border: 2px solid #DC2626;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-moz-box-shadow: 2px 2px 3px #666;
+	-webkit-box-shadow: 2px 2px 3px #666;
+	box-shadow: 2px 2px 3px #666;
+	font-size: 15px;
+	padding: 4px 7px;
+	outline: 0;
+	-webkit-appearance: none;
+    background-color: #DC2626;
+    color: white;
+
+}
+
+.yesBtn:hover{
+    border: 2px solid #F87171;
+    background-color: #F87171; 
+}
+
+.cancelBtn{
+    display: inline-block;
+    width: 100px;
+    margin-bottom: 16px;
+    border: 2px solid #6B7280;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-moz-box-shadow: 2px 2px 3px #666;
+	-webkit-box-shadow: 2px 2px 3px #666;
+	box-shadow: 2px 2px 3px #666;
+	font-size: 15px;
+	padding: 4px 7px;
+	outline: 0;
+	-webkit-appearance: none;
+    background-color: #6B7280;
+    color: white;
+
+}
+
+.cancelBtn:hover{
+    border: 2px solid #D1D5DB;
+    background-color: #D1D5DB; 
+}
+
+h3 { 
+    margin-top: 50px;
+}

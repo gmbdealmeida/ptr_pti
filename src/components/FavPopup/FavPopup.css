@@ -1,0 +1,89 @@
+.modal {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.25);
+
+}
+
+.modal_content {
+  background-color: white;
+  position: sticky;
+  top: 20%;
+  left: 20%;
+  width: 50%;
+  padding: 20px;
+  padding-bottom: 40px;
+  border-radius: 5px;
+  border: 2px solid rgb(234, 84, 85);
+}
+
+.close {
+  color: Black;
+  float: right;
+  font-size: xx-large;
+}
+
+.close:hover {
+  color: rgb(234, 84, 85);
+  cursor: pointer;
+}
+
+.favBtn{
+  color:#2D4059;
+  border: none;
+  float: right;
+}
+
+.favBtn:hover{
+  color:rgb(234, 84, 85);
+}
+
+.selectBar{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 5px;
+  -moz-box-shadow: 2px 2px 3px #666;
+  -webkit-box-shadow: 2px 2px 3px #666;
+  box-shadow: 2px 2px 3px #666;
+  font-size: 15px;
+  padding: 4px 7px;
+  outline: 0;
+  -webkit-appearance: none;
+}
+
+.inputBar{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 5px;
+  -moz-box-shadow: 2px 2px 3px #666;
+  -webkit-box-shadow: 2px 2px 3px #666;
+  box-shadow: 2px 2px 3px #666;
+  font-size: 20px;
+  padding: 4px 7px;
+  outline: 0;
+  -webkit-appearance: none;
+}
+
+.inputBar:focus{
+  border-color: #339933;
+}
+
+.label{
+  margin-left: 10%;
+  font-weight: bold;
+  color: #2D4059;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}

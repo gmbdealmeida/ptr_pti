@@ -1,0 +1,76 @@
+.modalHouse {
+    font-size: 12px;
+    background: white;
+    width: 450px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .centerHouse {
+    position: absolute;
+    z-index: 15;
+    top: 50%;
+    left: 50%;
+    margin: -200px 0 0 -190px;
+  }
+  .popup-content {
+    background: none;
+    width: 0%;
+    padding: 50px;
+    border: none;
+  }
+  .modalHouse > .header {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+  }
+  .modalHouse > .content {
+    width: 100%;
+    padding: 10px 20px;
+  }
+  .modalHouse > .actions {
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+  }
+  .modalHouse > .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
+  }
+
+  .updateBtn{
+    width: 20%;
+    margin-top: 1%;
+    margin-left: 75%;
+    border: 2px solid #DECDC3;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-moz-box-shadow: 2px 2px 3px #666;
+	-webkit-box-shadow: 2px 2px 3px #666;
+	box-shadow: 2px 2px 3px #666;
+	font-size: 10px;
+	padding: 4px 7px;
+	outline: 0;
+	-webkit-appearance: none;
+    background-color: #DECDC3;
+    color: #2D4059;
+}
+
+.updateBtn:hover{
+    border: 2px solid #2D4059;
+    background-color: #2D4059;
+    color:white;
+}

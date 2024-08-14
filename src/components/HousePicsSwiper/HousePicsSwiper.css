@@ -1,0 +1,24 @@
+.img{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper{
+    background-color: #2D4059;
+}
+
+.swiper-button-next{
+    color: rgb(234, 84, 85);
+    font-weight: bold;
+}
+
+.swiper-button-prev{
+    color: rgb(234, 84, 85);
+    font-weight: bold;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet{
+    background: rgb(234, 84, 85);
+}

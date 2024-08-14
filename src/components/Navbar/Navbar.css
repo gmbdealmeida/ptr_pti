@@ -1,0 +1,7 @@
+#menu-toggle:checked + #menu{
+    display:block;
+}
+
+#languageBtn, #languageBtn:active, #languageBtn:focus{
+    box-shadow: none;
+}

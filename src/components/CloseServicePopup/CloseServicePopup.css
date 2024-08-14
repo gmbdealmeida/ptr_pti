@@ -1,0 +1,70 @@
+.completeBtn {
+    width: 30%;
+    margin-left: 59%;
+    margin-bottom: 2%;
+    border: 2px solid #DECDC3;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px #666;
+    font-size: 20px;
+    padding: 4px 7px;
+    outline: 0;
+    -webkit-appearance: none;
+    background-color: #DECDC3;
+    color: #2D4059;
+}
+
+.modal {
+    font-size: 12px;
+    background: white;
+    width: 480px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.center {
+    position: absolute;
+    z-index: 15;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -230px;
+}
+.popup-content {
+    background: none;
+    width: 0%;
+    padding: 0px;
+    border: none;
+}
+
+.modal > .header {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+}
+
+.modal > .content {
+    width: 100%;
+    padding: 10px 5px;
+}
+
+.modal > .actions {
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+}
+
+.modal > .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
+}

@@ -1,0 +1,54 @@
+
+.modalEdit {
+    font-size: 12px;
+    background: white;
+    width: 380px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid rgb(234, 84, 85);
+  }
+  
+  .center {
+    position: absolute;
+    z-index: 15;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -150px;
+  }
+  .popup-content {
+    background: none;
+    width: 0%;
+    padding: 0px;
+    border: none;
+  }
+  .modalEdit > .header {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+  }
+  .modalEdit > .content {
+    width: 100%;
+    padding: 10px 5px;
+    /* border: 2px solid rgb(234, 84, 85); */
+  }
+  .modalEdit > .actions {
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+  }
+  .modalEdit > .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
+  }
